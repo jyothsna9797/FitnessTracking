@@ -30,6 +30,20 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="com.workout.scout.LoginsingupActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:supportsPictureInPicture="true"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="com.workout.scout.HomeActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:supportsPictureInPicture="true"
+            android:theme="@style/NoActionBar" />
+        <activity
             android:name="com.workout.scout.DebugActivity"
             android:screenOrientation="portrait" />
 

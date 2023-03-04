@@ -1,7 +1,7 @@
 
 <manifest
 	xmlns:android="http://schemas.android.com/apk/res/android"
-	package="com.workout.scout">
+	package="com.workout.workoutplanner">
 	<application
 		android:allowBackup="true"
 		android:icon="@drawable/app_icon"
@@ -9,7 +9,7 @@
 		android:usesCleartextTraffic="true"
 		android:theme="@style/AppTheme">
 		<activity
-			android:name=".MainActivity"
+			android:name="com.workout.workoutplanner.MainActivity"
 			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
 			android:hardwareAccelerated="true"
 			android:supportsPictureInPicture="true"
@@ -21,14 +21,14 @@
 			</intent-filter>
 		</activity>
 		<activity
-			android:name=".LoginsingupActivity"
+			android:name="com.workout.workoutplanner.LoginsingupActivity"
 			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
 			android:hardwareAccelerated="true"
 			android:supportsPictureInPicture="true"
 			android:theme="@style/NoActionBar"
 			android:screenOrientation="portrait" />
 		<activity
-			android:name=".HomeActivity"
+			android:name="com.workout.workoutplanner.HomeActivity"
 			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
 			android:hardwareAccelerated="true"
 			android:supportsPictureInPicture="true"
@@ -41,4 +41,4 @@
 			android:name="org.apache.http.legacy"
 			android:required="false" />
 	</application>
-</manifest>
+</manifest>

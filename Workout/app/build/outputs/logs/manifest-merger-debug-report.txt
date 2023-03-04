@@ -1,113 +1,113 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:2:1-44:12
+ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:2:1-44:12
 	package
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:4:2-29
-		INJECTED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:4:2-38
+		INJECTED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:2:1-44:12
-		INJECTED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:2:1-44:12
+		INJECTED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:2:1-44:12
-		INJECTED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:2:1-44:12
+		INJECTED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:3:2-60
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:3:2-60
 application
-ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:5:2-43:16
+ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:5:2-43:16
 	android:label
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:8:3-35
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:8:3-35
 	android:icon
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:7:3-36
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:7:3-36
 	android:allowBackup
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:6:3-29
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:6:3-29
 	android:theme
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:10:3-34
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:10:3-34
 	android:usesCleartextTraffic
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:9:3-38
-activity#com.workout.scout.MainActivity
-ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:11:3-22:14
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:9:3-38
+activity#com.workout.workoutplanner.MainActivity
+ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:11:3-22:14
 	android:screenOrientation
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:17:4-40
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:17:4-40
 	android:hardwareAccelerated
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:14:4-38
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:14:4-38
 	android:supportsPictureInPicture
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:15:4-43
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:15:4-43
 	android:configChanges
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:13:4-97
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:13:4-97
 	android:theme
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:16:4-37
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:16:4-37
 	android:name
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:12:4-32
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:12:4-58
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:18:4-21:20
+ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:18:4-21:20
 action#android.intent.action.MAIN
-ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:19:5-57
+ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:19:5-57
 	android:name
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:19:13-54
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:19:13-54
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:20:5-65
+ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:20:5-65
 	android:name
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:20:15-62
-activity#com.workout.scout.LoginsingupActivity
-ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:23:3-29:43
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:20:15-62
+activity#com.workout.workoutplanner.LoginsingupActivity
+ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:23:3-29:43
 	android:screenOrientation
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:29:4-40
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:29:4-40
 	android:hardwareAccelerated
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:26:4-38
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:26:4-38
 	android:supportsPictureInPicture
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:27:4-43
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:27:4-43
 	android:configChanges
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:25:4-97
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:25:4-97
 	android:theme
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:28:4-38
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:28:4-38
 	android:name
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:24:4-39
-activity#com.workout.scout.HomeActivity
-ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:30:3-36:43
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:24:4-65
+activity#com.workout.workoutplanner.HomeActivity
+ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:30:3-36:43
 	android:screenOrientation
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:36:4-40
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:36:4-40
 	android:hardwareAccelerated
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:33:4-38
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:33:4-38
 	android:supportsPictureInPicture
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:34:4-43
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:34:4-43
 	android:configChanges
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:32:4-97
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:32:4-97
 	android:theme
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:35:4-38
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:35:4-38
 	android:name
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:31:4-32
-activity#com.workout.scout.DebugActivity
-ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:37:3-39:43
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:31:4-58
+activity#com.workout.workoutplanner.DebugActivity
+ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:37:3-39:43
 	android:screenOrientation
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:39:4-40
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:39:4-40
 	android:name
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:38:4-33
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:38:4-33
 uses-library#org.apache.http.legacy
-ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:40:3-42:31
+ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:40:3-42:31
 	android:required
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:42:4-28
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:42:4-28
 	android:name
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml:41:4-41
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml:41:4-41
 uses-sdk
-INJECTED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\S556390\Downloads\Workout\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\s555266\Downloads\Workout\app\src\main\AndroidManifest.xml

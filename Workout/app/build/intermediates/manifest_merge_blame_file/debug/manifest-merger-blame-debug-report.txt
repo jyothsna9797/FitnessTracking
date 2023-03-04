@@ -1,0 +1,67 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.workout.scout"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\S548786\Downloads\Workout\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\S548786\Downloads\Workout\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\S548786\Downloads\Workout\app\src\main\AndroidManifest.xml:5:2-29:16
+12        android:allowBackup="true"
+12-->C:\Users\S548786\Downloads\Workout\app\src\main\AndroidManifest.xml:6:3-29
+13        android:debuggable="true"
+14        android:icon="@drawable/app_icon"
+14-->C:\Users\S548786\Downloads\Workout\app\src\main\AndroidManifest.xml:7:3-36
+15        android:label="@string/app_name"
+15-->C:\Users\S548786\Downloads\Workout\app\src\main\AndroidManifest.xml:8:3-35
+16        android:testOnly="true"
+17        android:theme="@style/AppTheme"
+17-->C:\Users\S548786\Downloads\Workout\app\src\main\AndroidManifest.xml:10:3-34
+18        android:usesCleartextTraffic="true" >
+18-->C:\Users\S548786\Downloads\Workout\app\src\main\AndroidManifest.xml:9:3-38
+19        <activity
+19-->C:\Users\S548786\Downloads\Workout\app\src\main\AndroidManifest.xml:11:3-22:14
+20            android:name="com.workout.scout.MainActivity"
+20-->C:\Users\S548786\Downloads\Workout\app\src\main\AndroidManifest.xml:12:4-32
+21            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+21-->C:\Users\S548786\Downloads\Workout\app\src\main\AndroidManifest.xml:13:4-97
+22            android:hardwareAccelerated="true"
+22-->C:\Users\S548786\Downloads\Workout\app\src\main\AndroidManifest.xml:14:4-38
+23            android:screenOrientation="portrait"
+23-->C:\Users\S548786\Downloads\Workout\app\src\main\AndroidManifest.xml:17:4-40
+24            android:supportsPictureInPicture="true"
+24-->C:\Users\S548786\Downloads\Workout\app\src\main\AndroidManifest.xml:15:4-43
+25            android:theme="@style/FullScreen" >
+25-->C:\Users\S548786\Downloads\Workout\app\src\main\AndroidManifest.xml:16:4-37
+26            <intent-filter>
+26-->C:\Users\S548786\Downloads\Workout\app\src\main\AndroidManifest.xml:18:4-21:20
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\Users\S548786\Downloads\Workout\app\src\main\AndroidManifest.xml:19:5-57
+27-->C:\Users\S548786\Downloads\Workout\app\src\main\AndroidManifest.xml:19:13-54
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\Users\S548786\Downloads\Workout\app\src\main\AndroidManifest.xml:20:5-65
+29-->C:\Users\S548786\Downloads\Workout\app\src\main\AndroidManifest.xml:20:15-62
+30            </intent-filter>
+31        </activity>
+32        <activity
+32-->C:\Users\S548786\Downloads\Workout\app\src\main\AndroidManifest.xml:23:3-25:43
+33            android:name="com.workout.scout.DebugActivity"
+33-->C:\Users\S548786\Downloads\Workout\app\src\main\AndroidManifest.xml:24:4-33
+34            android:screenOrientation="portrait" />
+34-->C:\Users\S548786\Downloads\Workout\app\src\main\AndroidManifest.xml:25:4-40
+35
+36        <uses-library
+36-->C:\Users\S548786\Downloads\Workout\app\src\main\AndroidManifest.xml:26:3-28:31
+37            android:name="org.apache.http.legacy"
+37-->C:\Users\S548786\Downloads\Workout\app\src\main\AndroidManifest.xml:27:4-41
+38            android:required="false" />
+38-->C:\Users\S548786\Downloads\Workout\app\src\main\AndroidManifest.xml:28:4-28
+39    </application>
+40
+41</manifest>

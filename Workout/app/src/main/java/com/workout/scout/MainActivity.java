@@ -2,7 +2,6 @@ package com.workout.scout;
 
 
 import android.app.Activity;
-
 import android.content.Intent;
 
 import android.graphics.*;
@@ -10,7 +9,6 @@ import android.graphics.Typeface;
 import android.os.Bundle;
 import android.util.*;
 import android.view.View;
-
 import android.widget.*;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -52,9 +50,9 @@ public class MainActivity extends Activity {
 	}
 	
 	private void initializeLogic() {
-		textview1.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/font.ttf"), 0);
-		textview2.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/font.ttf"), 0);
-		button1.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/font.ttf"), 0);
+		textview1.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/font.ttf"));
+		textview2.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/font.ttf"));
+		button1.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/font.ttf"));
 		_rippleRoundStroke(button1, "#FFFFFF", "#FFFFFF", 20, 0, "#FFFFFF");
 	}
 	
@@ -83,7 +81,8 @@ public class MainActivity extends Activity {
 	
 	@Deprecated
 	public int getLocationY(View _v) {
-		int _location[] = new int[2];
+		int index = 2;
+		int _location[] = new int[index];
 		_v.getLocationInWindow(_location);
 		return _location[1];
 	}

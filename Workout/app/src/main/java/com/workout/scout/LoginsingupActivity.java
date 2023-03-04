@@ -2,6 +2,7 @@ package com.workout.scout;
 
 
 import android.app.Activity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.*;
@@ -14,6 +15,7 @@ import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import java.util.*;
+
 
 public class LoginsingupActivity extends Activity {
 	
@@ -139,13 +141,11 @@ public class LoginsingupActivity extends Activity {
 	
 	@Deprecated
 	public int getDisplayWidthPixels() {
-
 		return getResources().getDisplayMetrics().widthPixels;
 	}
 	
 	@Deprecated
 	public int getDisplayHeightPixels() {
-
 		return getResources().getDisplayMetrics().heightPixels;
 	}
 }

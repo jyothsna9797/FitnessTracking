@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\S555666\\Downloads\\Workout\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\S556390\\Downloads\\Workout\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\S555666\\Downloads\\Workout\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\S556390\\Downloads\\Workout\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "1",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\S555666\\Downloads\\Workout\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "C:\\Users\\S556390\\Downloads\\Workout\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "3,4,5,1,2",
                         "startColumns": "1,1,1,1,1",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\S555666\\Downloads\\Workout\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\S556390\\Downloads\\Workout\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "1,8,15,22",
                         "startColumns": "1,1,1,1",

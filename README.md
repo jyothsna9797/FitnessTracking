@@ -1,5 +1,8 @@
 # FitnessTracking
 
+For Indetail documentation please refer here: [Fitness_Tracking_Application_Documentation.docx](https://github.com/jyothsna9797/FitnessTracking/files/10887564/Fitness_Tracking_Application_Documentation.docx)
+
+
 ## Launch Page:
 - Created a Fitness App Launch page with the following layouts.
   - Added a background Image for the launch page

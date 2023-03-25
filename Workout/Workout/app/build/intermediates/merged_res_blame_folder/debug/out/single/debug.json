@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\S556390\\Documents\\Workout\\app\\build\\intermediates\\res\\merged\\debug\\layout_home.xml.flat",
+        "source": "C:\\Users\\S556390\\Documents\\Workout\\app\\src\\main\\res\\layout\\home.xml"
+    },
+    {
+        "merged": "C:\\Users\\S556390\\Documents\\Workout\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "C:\\Users\\S556390\\Documents\\Workout\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\S556390\\Documents\\Workout\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_default_image.png.flat",
+        "source": "C:\\Users\\S556390\\Documents\\Workout\\app\\src\\main\\res\\drawable-xhdpi\\default_image.png"
+    },
+    {
+        "merged": "C:\\Users\\S556390\\Documents\\Workout\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_verified_user_white.png.flat",
+        "source": "C:\\Users\\S556390\\Documents\\Workout\\app\\src\\main\\res\\drawable-xhdpi\\ic_verified_user_white.png"
+    },
+    {
+        "merged": "C:\\Users\\S556390\\Documents\\Workout\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_app_icon.png.flat",
+        "source": "C:\\Users\\S556390\\Documents\\Workout\\app\\src\\main\\res\\drawable-xhdpi\\app_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\S556390\\Documents\\Workout\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_account_box_white.png.flat",
+        "source": "C:\\Users\\S556390\\Documents\\Workout\\app\\src\\main\\res\\drawable-xhdpi\\ic_account_box_white.png"
+    },
+    {
+        "merged": "C:\\Users\\S556390\\Documents\\Workout\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_email_white.png.flat",
+        "source": "C:\\Users\\S556390\\Documents\\Workout\\app\\src\\main\\res\\drawable-xhdpi\\ic_email_white.png"
+    },
+    {
+        "merged": "C:\\Users\\S556390\\Documents\\Workout\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_https_white.png.flat",
+        "source": "C:\\Users\\S556390\\Documents\\Workout\\app\\src\\main\\res\\drawable-xhdpi\\ic_https_white.png"
+    }
+]

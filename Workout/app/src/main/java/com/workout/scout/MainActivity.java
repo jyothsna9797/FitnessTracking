@@ -313,7 +313,171 @@ public class MainActivity extends Activity {
 		};
 		Users.addChildEventListener(_Users_child_listener);
 
+		_profilePhoto_FS_upload_progress_listener = new OnProgressListener<UploadTask.TaskSnapshot>() {
+			@Override
+			public void onProgress(UploadTask.TaskSnapshot _param1) {
+				double _progressValue = (100.0 * _param1.getBytesTransferred()) / _param1.getTotalByteCount();
+				SketchwareUtil.showMessage(getApplicationContext(), String.valueOf((long)(_progressValue)).concat("%"));
+			}
+		};
 
+		_profilePhoto_FS_download_progress_listener = new OnProgressListener<FileDownloadTask.TaskSnapshot>() {
+			@Override
+			public void onProgress(FileDownloadTask.TaskSnapshot _param1) {
+				double _progressValue = (100.0 * _param1.getBytesTransferred()) / _param1.getTotalByteCount();
+
+			}
+		};
+
+		_profilePhoto_FS_upload_success_listener = new OnCompleteListener<Uri>() {
+			@Override
+			public void onComplete(Task<Uri> _param1) {
+				final String _downloadUrl = _param1.getResult().toString();
+				Image_Url = _downloadUrl;
+				Map_users.put("profilePhoto", _downloadUrl);
+				Users.child(FirebaseAuth.getInstance().getCurrentUser().getUid()).updateChildren(Map_users);
+				i.setClass(getApplicationContext(), HomeActivity.class);
+				i.putExtra("E-mail", singupemail.getText().toString());
+				i.putExtra("Password", singuppasswo.getText().toString());
+				startActivity(i);
+			}
+		};
+
+		_profilePhoto_FS_download_success_listener = new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
+			@Override
+			public void onSuccess(FileDownloadTask.TaskSnapshot _param1) {
+				final long _totalByteCount = _param1.getTotalByteCount();
+
+			}
+		};
+
+		_profilePhoto_FS_delete_success_listener = new OnSuccessListener() {
+			@Override
+			public void onSuccess(Object _param1) {
+
+			}
+		};
+
+		_profilePhoto_FS_failure_listener = new OnFailureListener() {
+			@Override
+			public void onFailure(Exception _param1) {
+				final String _message = _param1.getMessage();
+
+			}
+		};
+
+		auth_updateEmailListener = new OnCompleteListener<Void>() {
+			@Override
+			public void onComplete(Task<Void> _param1) {
+				final boolean _success = _param1.isSuccessful();
+				final String _errorMessage = _param1.getException() != null ? _param1.getException().getMessage() : "";
+
+			}
+		};
+
+		auth_updatePasswordListener = new OnCompleteListener<Void>() {
+			@Override
+			public void onComplete(Task<Void> _param1) {
+				final boolean _success = _param1.isSuccessful();
+				final String _errorMessage = _param1.getException() != null ? _param1.getException().getMessage() : "";
+
+			}
+		};
+
+		auth_emailVerificationSentListener = new OnCompleteListener<Void>() {
+			@Override
+			public void onComplete(Task<Void> _param1) {
+				final boolean _success = _param1.isSuccessful();
+				final String _errorMessage = _param1.getException() != null ? _param1.getException().getMessage() : "";
+
+			}
+		};
+
+		auth_deleteUserListener = new OnCompleteListener<Void>() {
+			@Override
+			public void onComplete(Task<Void> _param1) {
+				final boolean _success = _param1.isSuccessful();
+				final String _errorMessage = _param1.getException() != null ? _param1.getException().getMessage() : "";
+
+			}
+		};
+
+		auth_phoneAuthListener = new OnCompleteListener<AuthResult>() {
+			@Override
+			public void onComplete(Task<AuthResult> task) {
+				final boolean _success = task.isSuccessful();
+				final String _errorMessage = task.getException() != null ? task.getException().getMessage() : "";
+
+			}
+		};
+
+		auth_updateProfileListener = new OnCompleteListener<Void>() {
+			@Override
+			public void onComplete(Task<Void> _param1) {
+				final boolean _success = _param1.isSuccessful();
+				final String _errorMessage = _param1.getException() != null ? _param1.getException().getMessage() : "";
+
+			}
+		};
+
+		auth_googleSignInListener = new OnCompleteListener<AuthResult>() {
+			@Override
+			public void onComplete(Task<AuthResult> task) {
+				final boolean _success = task.isSuccessful();
+				final String _errorMessage = task.getException() != null ? task.getException().getMessage() : "";
+
+			}
+		};
+
+		_auth_create_user_listener = new OnCompleteListener<AuthResult>() {
+			@Override
+			public void onComplete(Task<AuthResult> _param1) {
+				final boolean _success = _param1.isSuccessful();
+				final String _errorMessage = _param1.getException() != null ? _param1.getException().getMessage() : "";
+				if (_success) {
+					Map_users = new HashMap<>();
+					key = Users.push().getKey();
+					Map_users.put("Uid", FirebaseAuth.getInstance().getCurrentUser().getUid());
+					Map_users.put("Full_Name", singupname.getText().toString());
+					Map_users.put("E-mail", singupemail.getText().toString());
+					Map_users.put("Password", singuppasswo.getText().toString());
+					Map_users.put("profilePhoto", Image_Url);
+					Map_users.put("key", key);
+//					profilePhoto_FS.child(Uri.parse(Image_path.concat(".jpeg")).getLastPathSegment()).putFile(Uri.fromFile(new File(Image_path))).addOnFailureListener(_profilePhoto_FS_failure_listener).addOnProgressListener(_profilePhoto_FS_upload_progress_listener).continueWithTask(new Continuation<UploadTask.TaskSnapshot, Task<Uri>>() {
+//						@Override
+//						public Task<Uri> then(Task<UploadTask.TaskSnapshot> task) throws Exception {
+//							return profilePhoto_FS.child(Uri.parse(Image_path.concat(".jpeg")).getLastPathSegment()).getDownloadUrl();
+//						}}).addOnCompleteListener(_profilePhoto_FS_upload_success_listener);
+					Users.push().updateChildren(Map_users);
+					Users.child(key).updateChildren(Map_users);
+				}
+			}
+		};
+
+		_auth_sign_in_listener = new OnCompleteListener<AuthResult>() {
+			@Override
+			public void onComplete(Task<AuthResult> _param1) {
+				final boolean _success = _param1.isSuccessful();
+				final String _errorMessage = _param1.getException() != null ? _param1.getException().getMessage() : "";
+				if (_success) {
+					next.setClass(getApplicationContext(), HomeActivity.class);
+					startActivity(next);
+					finish();
+				}
+				else {
+					SketchwareUtil.showMessage(getApplicationContext(), _errorMessage);
+				}
+			}
+		};
+
+		_auth_reset_password_listener = new OnCompleteListener<Void>() {
+			@Override
+			public void onComplete(Task<Void> _param1) {
+				final boolean _success = _param1.isSuccessful();
+
+			}
+		};
+	}
 
 	private void initializeLogic() {
 		ImagePicked = false;
@@ -369,7 +533,7 @@ public class MainActivity extends Activity {
 		GG.setColor(Color.parseColor(_focus));
 		GG.setCornerRadius((float)_round);
 		GG.setStroke((int) _stroke,
-		Color.parseColor("#" + _strokeclr.replace("#", "")));
+				Color.parseColor("#" + _strokeclr.replace("#", "")));
 		android.graphics.drawable.RippleDrawable RE = new android.graphics.drawable.RippleDrawable(new android.content.res.ColorStateList(new int[][]{new int[]{}}, new int[]{ Color.parseColor(_pressed)}), GG, null);
 		_view.setBackground(RE);
 	}
@@ -406,7 +570,7 @@ public class MainActivity extends Activity {
 		SparseBooleanArray _arr = _list.getCheckedItemPositions();
 		for (int _iIdx = 0; _iIdx < _arr.size(); _iIdx++) {
 			if (_arr.valueAt(_iIdx))
-			_result.add((double)_arr.keyAt(_iIdx));
+				_result.add((double)_arr.keyAt(_iIdx));
 		}
 		return _result;
 	}

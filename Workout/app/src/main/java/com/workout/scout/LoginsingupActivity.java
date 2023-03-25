@@ -1,12 +1,29 @@
 package com.workout.scout;
 
-
+import android.animation.*;
+import android.app.*;
 import android.app.Activity;
-
+import android.app.DialogFragment;
+import android.app.Fragment;
+import android.app.FragmentManager;
+import android.content.*;
 import android.content.Intent;
+import android.content.res.*;
+import android.graphics.*;
+import android.graphics.drawable.*;
+import android.media.*;
+import android.net.*;
+import android.net.Uri;
+import android.os.*;
 import android.os.Bundle;
+import android.text.*;
+import android.text.style.*;
 import android.util.*;
+import android.view.*;
 import android.view.View;
+import android.view.View.*;
+import android.view.animation.*;
+import android.webkit.*;
 import android.widget.*;
 import android.widget.Button;
 import android.widget.EditText;
@@ -14,8 +31,12 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
+import java.io.*;
+import java.io.InputStream;
+import java.text.*;
 import java.util.*;
-
+import java.util.regex.*;
+import org.json.*;
 
 public class LoginsingupActivity extends Activity {
 	
@@ -148,4 +169,4 @@ public class LoginsingupActivity extends Activity {
 	public int getDisplayHeightPixels() {
 		return getResources().getDisplayMetrics().heightPixels;
 	}
-}
+}

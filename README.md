@@ -1,7 +1,3 @@
-# FitnessTracking
-
-For Indetail documentation please refer here: [Fitness_Tracking_Application_Documentation.docx](https://github.com/jyothsna9797/FitnessTracking/files/10887564/Fitness_Tracking_Application_Documentation.docx)
-
 - Team Information:
     - Uday Kiran Reddy  Solupati (S548786)
     - Jyothsna Pamarthi (S555266)

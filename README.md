@@ -12,6 +12,14 @@ For Indetail documentation please refer here: [Fitness_Tracking_Application_Docu
 
 ## Description: 
   Our Android fitness software addresses the lack of workout information that prevents many individuals from staying healthy. The app allows users to work out remotely and customize their workouts based on their height, weight, prior activity, and desired body type (lean, bulky, etc.). The app provides daily workout advice tailored to the user's needs and goals to help them achieve their fitness goals.
+  
+ ## Features of Fitness Tracking Application:
+ - User could be able to login or signup to the application so that they have track of the activities.
+ - User could be able to check his/her daily history tracking in the home page.
+ - User could be able to check his/her BMI results based on height, weight, age and gender.
+ - User could be able to check his diet plan sheet on a daily basis according to his daily exercises.
+ - User could be able to update the profile page with the personal information.
+ - User could be able to find the workouts based on their BMI results.
 
 ## Launch Page:
 - Created a Fitness App Launch page with the following layouts.

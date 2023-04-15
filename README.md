@@ -2,6 +2,16 @@
 
 For Indetail documentation please refer here: [Fitness_Tracking_Application_Documentation.docx](https://github.com/jyothsna9797/FitnessTracking/files/10887564/Fitness_Tracking_Application_Documentation.docx)
 
+- Team Information:
+    - Uday Kiran Reddy  Solupati (S548786)
+    - Jyothsna Pamarthi (S555266)
+    - Syam Kumar Allaparthi (S555666)
+    - Divya Sree Vadlakonda (S556390)
+
+# Project Name:  Fitness Tracking
+
+## Description: 
+  Our Android fitness software addresses the lack of workout information that prevents many individuals from staying healthy. The app allows users to work out remotely and customize their workouts based on their height, weight, prior activity, and desired body type (lean, bulky, etc.). The app provides daily workout advice tailored to the user's needs and goals to help them achieve their fitness goals.
 
 ## Launch Page:
 - Created a Fitness App Launch page with the following layouts.
@@ -32,3 +42,5 @@ For Indetail documentation please refer here: [Fitness_Tracking_Application_Docu
 - Here is the sample view of the layouts after launching the app with all the layouts.
 <img width="960" alt="Capture" src="https://user-images.githubusercontent.com/65946371/222877503-4e94d170-398c-4256-a112-0166277bb1ee.PNG">
 <img width="960" alt="Capture2" src="https://user-images.githubusercontent.com/65946371/222877504-968c1876-af6e-407e-95c4-386f6f7ac76c.PNG">
+
+

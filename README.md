@@ -1,11 +1,11 @@
-- Team Information:
-    - Uday Kiran Reddy  Solupati (S548786)
-    - Jyothsna Pamarthi (S555266)
-    - Syam Kumar Allaparthi (S555666)
-    - Divya Sree Vadlakonda (S556390)
-
 # Project Name:  Fitness Tracking
 
+#### Team Information:
+- Uday Kiran Reddy  Solupati (S548786)
+- Jyothsna Pamarthi (S555266)
+- Syam Kumar Allaparthi (S555666)
+- Divya Sree Vadlakonda (S556390)
+      
 ## Description: 
   Our Android fitness software addresses the lack of workout information that prevents many individuals from staying healthy. The app allows users to work out remotely and customize their workouts based on their height, weight, prior activity, and desired body type (lean, bulky, etc.). The app provides daily workout advice tailored to the user's needs and goals to help them achieve their fitness goals.
   
@@ -16,6 +16,11 @@
  - User could be able to check his diet plan sheet on a daily basis according to his daily exercises.
  - User could be able to update the profile page with the personal information.
  - User could be able to find the workouts based on their BMI results.
+ 
+ ## Software Requirements:
+- AndroidStudio: We have used Android Studio for developing the Application.
+- Java: The intents, layouts and other functionalities are developed using java code.
+- SQL: To store user credentials or any information we have used SQL as a database.
 
 ## Launch Page:
 - Created a Fitness App Launch page with the following layouts.

@@ -1,21 +1,20 @@
 plugins {
 	id 'com.android.application'
-	id 'com.google.gms.google-services'
 }
 
 android {
-	compileSdkVersion 33
-
+	compileSdkVersion 29
+	
 	useLibrary 'org.apache.http.legacy'
-
+	
 	defaultConfig {
 		applicationId "com.darkghostmods"
 		minSdkVersion 21
-		targetSdkVersion 33
+		targetSdkVersion 29
 		versionCode 1
 		versionName "1.0"
 	}
-
+	
 	buildTypes {
 		release {
 			minifyEnabled false

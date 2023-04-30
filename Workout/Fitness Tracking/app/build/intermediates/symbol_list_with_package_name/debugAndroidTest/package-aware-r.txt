@@ -1,3 +1,0 @@
-com.fitness.tracking.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme

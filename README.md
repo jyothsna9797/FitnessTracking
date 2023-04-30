@@ -11,18 +11,17 @@
   
  ## Features of Fitness Tracking Application:
  - User could be able to login or signup to the application so that they have track of the activities.
- - User could be able to check his/her daily history tracking in the home page.
  - User could be able to check his/her BMI results based on height, weight, age and gender.
- - User could be able to check his diet plan sheet on a daily basis according to his daily exercises.
+ - User could be able to check his diet plan chart.
  - User could be able to update the profile page with the personal information.
  - User could be able to find the workouts based on their BMI results.
  - User can able to find the Demo of the workout and the time tracked to do that.
- - User can get remainder for the workout on daily basis.
+
  
  ## Software Requirements:
 - AndroidStudio: We have used Android Studio for developing the Application.
 - Java: The intents, layouts and other functionalities are developed using java code.
-- SQL: To store user credentials or any information we have used SQL as a database.
+- FireBase Database: To store user credentials or any information we have used Firebase as a database.
 
 ## Detail Information:
 ### Launch Page:
@@ -38,24 +37,27 @@
 - Added a button either to signup if he is a new user and login if already existing user.
 - Used Linear Layout to place the widgets with the prientation as vertical.
 - Same view for the login and sign up page is below:
-<img width="284" alt="Capture" src="https://user-images.githubusercontent.com/112147168/222875239-50747cd9-7283-4ee0-b2ae-da7691601775.PNG">
+![image](https://user-images.githubusercontent.com/108310111/235337364-15860d39-5443-481b-a8d8-28fddb2bd1d8.png)
+![image](https://user-images.githubusercontent.com/108310111/235337374-b1e5c987-7df2-453b-a049-59a0811b669d.png)
 
-### Home Page:
+
+### Workout page:
 - This page helps us to monitor daily work out progress like history of a week.
-- Considered Linear layout and orientation as vertical.
-- Added buttons for the work out, settings and profile.
-- Here is the sample view for the home page.
-<img width="482" alt="Capture" src="https://user-images.githubusercontent.com/111783649/222876202-1315aa40-0163-4023-b795-eb5e59bb8f0b.PNG">
+- Navigaton to BMI calculator
+- Diet plan chart
+![image](https://user-images.githubusercontent.com/108310111/235337441-446dad87-3234-4cd0-9c31-af22115c7e39.png)
 
-### History, Profile And settings page:
-- Added intents to navigate from one widget to another.
-- Added layouts for the history, profile and settings.
+
+###  Profile page:
+- Added layouts for the user information page.
 - Here is the sample view of the layouts after launching the app with all the layouts.
-<img width="960" alt="Capture" src="https://user-images.githubusercontent.com/65946371/222877503-4e94d170-398c-4256-a112-0166277bb1ee.PNG">
-<img width="960" alt="Capture2" src="https://user-images.githubusercontent.com/65946371/222877504-968c1876-af6e-407e-95c4-386f6f7ac76c.PNG">
+![image](https://user-images.githubusercontent.com/108310111/235337475-d2cd377b-b9d3-4322-9b4f-41665d584b79.png)
 
-## Need to Address:
-- Need do finish up setting Login and Signup page complete functionality like validating the existing user and credentials.
-- Need to do few modifications with respect to the profile page.
-- Need to add appropriate images for the activities.
-- Need to test the app functionalities.
+### BMI Calculating page:
+- Takes input from the user and provides result back whether underweight or overweight.
+![image](https://user-images.githubusercontent.com/108310111/235337513-5a74a3b1-a1a6-41db-8406-24d3cb9b4632.png)
+
+### Diet Plan
+- Detail meal plan and their usage.
+![image](https://user-images.githubusercontent.com/108310111/235337569-24a0e008-e38a-4b98-9c30-c8d5d2d03cdf.png)
+

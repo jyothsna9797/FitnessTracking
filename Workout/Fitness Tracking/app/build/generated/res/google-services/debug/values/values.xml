@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">553141424157-2l5bet982d4csvcd1du2a0n0sj315oc6.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">553141424157</string>
+    <string name="google_api_key" translatable="false">AIzaSyDViTeJDRS7K_TYBgNF4Y5F-GVfESxuOL0</string>
+    <string name="google_app_id" translatable="false">1:553141424157:android:04967059dad21cd15eb6f4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDViTeJDRS7K_TYBgNF4Y5F-GVfESxuOL0</string>
+    <string name="google_storage_bucket" translatable="false">fitness-track-dfd80.appspot.com</string>
+    <string name="project_id" translatable="false">fitness-track-dfd80</string>
+</resources>

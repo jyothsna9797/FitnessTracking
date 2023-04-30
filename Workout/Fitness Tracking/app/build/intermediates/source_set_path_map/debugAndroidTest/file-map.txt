@@ -1,0 +1,9 @@
+com.fitness.tracking.test.app-annotation-experimental-1.3.0-0 C:\Users\rohit\.gradle\caches\transforms-3\44fb1c653c2c68d50a0ce37637582265\transformed\annotation-experimental-1.3.0\res
+com.fitness.tracking.test.app-core-1.5.0-1 C:\Users\rohit\.gradle\caches\transforms-3\800b34c658c8a00ea3eb79f8b7d5b298\transformed\core-1.5.0\res
+com.fitness.tracking.test.app-androidTest-2 C:\Users\rohit\Desktop\Fitness Tracking\Fitness Tracking\app\build\generated\res\resValues\androidTest\debug
+com.fitness.tracking.test.app-androidTest-3 C:\Users\rohit\Desktop\Fitness Tracking\Fitness Tracking\app\build\generated\res\rs\androidTest\debug
+com.fitness.tracking.test.app-mergeDebugAndroidTestResources-4 C:\Users\rohit\Desktop\Fitness Tracking\Fitness Tracking\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.fitness.tracking.test.app-mergeDebugAndroidTestResources-5 C:\Users\rohit\Desktop\Fitness Tracking\Fitness Tracking\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.fitness.tracking.test.app-merged_res-6 C:\Users\rohit\Desktop\Fitness Tracking\Fitness Tracking\app\build\intermediates\merged_res\debugAndroidTest
+com.fitness.tracking.test.app-androidTest-7 C:\Users\rohit\Desktop\Fitness Tracking\Fitness Tracking\app\src\androidTest\res
+com.fitness.tracking.test.app-androidTestDebug-8 C:\Users\rohit\Desktop\Fitness Tracking\Fitness Tracking\app\src\androidTestDebug\res
